@@ -1,4 +1,4 @@
-form rest_framework import serializers
+from rest_framework import serializers
 from .models import Lead
 
 class LeadSerializer(serializers.ModelSerializer):
